@@ -1,20 +1,33 @@
-## 🤖 AI Provider for Ollama: WordPress 7.0 AI Connector Plugin
+## Personal Projects
 
-**Role:** Open Source Author
+### 🔬 dap-gui — Standalone DAP Client GUI for PHP/Xdebug
 
-**Summary:** Developed an open-source WordPress plugin that implements the upcoming WordPress 7.0 AI Connector interface, enabling developers to use a local [Ollama](https://ollama.com) instance as an AI provider instead of cloud-based services like OpenAI or Claude.
+Built a standalone DAP client GUI with Electron, React, TypeScript, and PrismJS. Provides IDE-like debugging for PHP/Xdebug without the overhead of a full IDE. Features include protocol parsing, session management, breakpoint gutter with persistent state, call stack / variables / watch expressions, debug adapter manager, remote path mapping, and collapsible layout with keyboard-driven controls.
 
-**Key Contributions:**
+**Repository:** [guzmandrade-dev/dap-gui](https://github.com/guzmandrade-dev/dap-gui)
 
-- Implemented the WordPress 7.0 AI Connector interface as a custom local provider.
-- Enabled fully offline AI-powered features during local development, improving developer privacy and eliminating API costs.
-- Bridged the gap between WordPress core's emerging AI abstractions and locally-run LLMs via Ollama.
+---
 
-**Impact:** Empowers WordPress developers to build and test AI-powered features locally, without relying on third-party API keys or exposing data to external services.
+### 💻 Ollama FIM — AI-Powered Inline Completions (VS Code & Vim)
+
+Developed inline (ghost-text) code-completion extensions using Fill-In-the-Middle (FIM) models via a local Ollama instance.
+
+- **VS Code:** `fim-completions` leverages the CompletionItemProvider API, supports multiple model families (rnj-1, DeepSeek, Qwen, Gemma, Mistral), injects file-level context, and uses debounced/cancellable requests. Released on the VS Code Marketplace.
+- **Vim:** `ollama-fim.vim` ports the same UX and prompt engineering to pure Vim script with an async `curl` backend, ghost-text via `textprop`, and zero Python/Node/LSP dependencies.
+
+**Repositories:** [VS Code Extension](https://github.com/guzmandrade-dev/fim-completions) · [Vim Plugin](https://github.com/guzmandrade-dev/ollama-fim.vim)
+
+---
+
+### 🤖 AI Provider for Ollama — WordPress 7.0 AI Connector Plugin
+
+Open-source WordPress plugin implementing the upcoming WordPress 7.0 AI Connector interface, routing AI requests to a local Ollama instance instead of cloud providers.
 
 **Repository:** [guzmandrade-dev/ai-provider-for-ollama](https://github.com/guzmandrade-dev/ai-provider-for-ollama)
 
 ---
+
+## Professional Experience
 
 ## 🧩 Project 1 — Global Nonprofit: Block‑Based Theme Migration & AI‑Powered Search  
 
