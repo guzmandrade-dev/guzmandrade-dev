@@ -1,36 +1,26 @@
-## Personal Projects
+# Hi, I'm Mauricio
 
-### 🔬 dap-gui — Standalone DAP Client GUI for PHP/Xdebug
+WordPress engineer with a strong focus on migrations, block-based themes, and developer tooling. I spend most of my time helping large organizations move from legacy/classic setups to modern, maintainable WordPress. Outside of work, I enjoy building small open-source projects to stay current with AI and developer tooling trends.
 
-Built a standalone DAP client GUI with Electron, React, TypeScript, and PrismJS. Provides IDE-like debugging for PHP/Xdebug without the overhead of a full IDE. Features include protocol parsing, session management, breakpoint gutter with persistent state, call stack / variables / watch expressions, debug adapter manager, remote path mapping, and collapsible layout with keyboard-driven controls.
+## What I do
 
-**Repository:** [guzmandrade-dev/dap-gui](https://github.com/guzmandrade-dev/dap-gui)
+- **WordPress migrations & block themes:** Converting classic themes, custom CMS data, and ACF-driven content into Core and custom Gutenberg blocks. I care about clean structure, accessibility, SEO continuity, and editorial experience.
+- **WordPress engineering support:** Ongoing development for high-traffic nonprofit and foundation sites — performance, stability, and feature work.
+- **Developer tooling:** Small tools and editor integrations that make everyday work smoother. I like things that feel like part of the workflow, not another dashboard.
 
----
+## On the side
 
-### 💻 Ollama FIM — AI-Powered Inline Completions (VS Code & Vim)
+- **AI as a learning lab:** I experiment with local models and agent protocols (Ollama, ACP) to understand where AI fits into developer and content workflows. Right now that's mostly personal projects.
+- **Open source:** I use open-source tools daily and try to give back through plugins, extensions, and small utilities.
+- **Editor journey:** Heavy VS Code user, slowly exploring (not Neo)Vim and Zed. Still mainly VS Code for real work — the switch is a long-term curiosity, not a hard migration.
 
-Developed inline (ghost-text) code-completion extensions using Fill-In-the-Middle (FIM) models via a local Ollama instance.
+## Find out more
 
-- **VS Code:** `fim-completions` leverages the CompletionItemProvider API, supports multiple model families (rnj-1, DeepSeek, Qwen, Gemma, Mistral), injects file-level context, and uses debounced/cancellable requests. Released on the VS Code Marketplace.
-- **Vim:** `ollama-fim.vim` ports the same UX and prompt engineering to pure Vim script with an async `curl` backend, ghost-text via `textprop`, and zero Python/Node/LSP dependencies.
+- [Professional Experience](PROFESSIONAL_EXPERIENCE.md)
+- [Current Projects](CURRENT_PROJECTS.md)
+- [GitHub projects pinned below](https://github.com/guzmandrade-dev) ↓
 
-**Repositories:** [VS Code Extension](https://github.com/guzmandrade-dev/fim-completions) · [Vim Plugin](https://github.com/guzmandrade-dev/ollama-fim.vim)
+## Contact
 
----
+- LinkedIn: [linkedin.com/in/guzmandrade](https://linkedin.com/in/guzmandrade)
 
-### 🤖 AI Provider for Ollama — WordPress 7.0 AI Connector Plugin
-
-Open-source WordPress plugin implementing the upcoming WordPress 7.0 AI Connector interface, routing AI requests to a local Ollama instance instead of cloud providers.
-
-**Repository:** [guzmandrade-dev/ai-provider-for-ollama](https://github.com/guzmandrade-dev/ai-provider-for-ollama)
-
----
-
-### 📑 Visual Research Pal — AI-Assisted Visual PDF Review
-
-Node.js/TypeScript workbench for researchers who want to discuss and improve their papers visually from the compiled PDF. It renders PDF pages to images, extracts text, and connects to an external agent via the Agent Client Protocol (ACP) to produce grounded, page-level suggestions as Markdown/JSON reports.
-
-**Repository:** [guzmandrade-dev/visual-research-pal](https://github.com/guzmandrade-dev/visual-research-pal)
-
----
