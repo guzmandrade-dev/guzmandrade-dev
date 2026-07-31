@@ -18,7 +18,7 @@ WordPress engineer with a strong focus on migrations, block-based themes, and de
 
 - [Professional Experience](PROFESSIONAL_EXPERIENCE.md)
 - [Current Projects](CURRENT_PROJECTS.md)
-- [GitHub projects pinned below](https://github.com/guzmandrade-dev) ↓
+- [GitHub projects pinned below](https://github.com/guzmandrade-dev#:~:text=Customize%20your%20pins-,Pinned,Loading,-simple%2Ddap%2Dgui) ↓
 
 ## Contact
 
